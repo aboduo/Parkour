@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F4259EE0187F05EA005B59F9 /* ground.png in Resources */ = {isa = PBXBuildFile; fileRef = F4259EDE187F05EA005B59F9 /* ground.png */; };
+		F4259EE1187F05EA005B59F9 /* mapGrass.tmx in Resources */ = {isa = PBXBuildFile; fileRef = F4259EDF187F05EA005B59F9 /* mapGrass.tmx */; };
+		F4676BF51882C03500849F03 /* Role.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F4676BF31882C03500849F03 /* Role.cpp */; };
+		F4676BF91882CA0E00849F03 /* UtDlog.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F4676BF71882CA0E00849F03 /* UtDlog.cpp */; };
 		F4792849187EE7D300E86273 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4792848187EE7D300E86273 /* QuartzCore.framework */; };
 		F479284B187EE7D300E86273 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F479284A187EE7D300E86273 /* OpenGLES.framework */; };
 		F479284D187EE7D300E86273 /* OpenAL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F479284C187EE7D300E86273 /* OpenAL.framework */; };
@@ -280,9 +284,16 @@
 		F4792BE6187EE7D700E86273 /* libwebsockets.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F4792BE5187EE7D700E86273 /* libwebsockets.a */; };
 		F4792BEC187EE7D700E86273 /* AppDelegate.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F4792BEB187EE7D700E86273 /* AppDelegate.cpp */; };
 		F4792BEF187EE7D700E86273 /* HelloWorldScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F4792BEE187EE7D700E86273 /* HelloWorldScene.cpp */; };
+		F4792BFB187EF43D00E86273 /* UIGameFatherLayer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F4792BF9187EF43D00E86273 /* UIGameFatherLayer.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F4259EDE187F05EA005B59F9 /* ground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ground.png; sourceTree = "<group>"; };
+		F4259EDF187F05EA005B59F9 /* mapGrass.tmx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = mapGrass.tmx; sourceTree = "<group>"; };
+		F4676BF31882C03500849F03 /* Role.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Role.cpp; path = Classes/Role.cpp; sourceTree = "<group>"; };
+		F4676BF41882C03500849F03 /* Role.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Role.h; path = Classes/Role.h; sourceTree = "<group>"; };
+		F4676BF71882CA0E00849F03 /* UtDlog.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = UtDlog.cpp; path = Classes/UtDlog.cpp; sourceTree = "<group>"; };
+		F4676BF81882CA0E00849F03 /* UtDlog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UtDlog.h; path = Classes/UtDlog.h; sourceTree = "<group>"; };
 		F4792845187EE7D300E86273 /* Parkour.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Parkour.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4792848187EE7D300E86273 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		F479284A187EE7D300E86273 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
@@ -873,6 +884,9 @@
 		F4792BEB187EE7D700E86273 /* AppDelegate.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = AppDelegate.cpp; path = Classes/AppDelegate.cpp; sourceTree = "<group>"; };
 		F4792BED187EE7D700E86273 /* HelloWorldScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = HelloWorldScene.h; path = Classes/HelloWorldScene.h; sourceTree = "<group>"; };
 		F4792BEE187EE7D700E86273 /* HelloWorldScene.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = HelloWorldScene.cpp; path = Classes/HelloWorldScene.cpp; sourceTree = "<group>"; };
+		F4792BF9187EF43D00E86273 /* UIGameFatherLayer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = UIGameFatherLayer.cpp; path = Classes/UIGameFatherLayer.cpp; sourceTree = "<group>"; };
+		F4792BFA187EF43D00E86273 /* UIGameFatherLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UIGameFatherLayer.h; path = Classes/UIGameFatherLayer.h; sourceTree = "<group>"; };
+		F4792BFD187EF57700E86273 /* UtCommonHeaders.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UtCommonHeaders.h; path = Classes/UtCommonHeaders.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -897,6 +911,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F4259EDD187F05EA005B59F9 /* maps */ = {
+			isa = PBXGroup;
+			children = (
+				F4259EDE187F05EA005B59F9 /* ground.png */,
+				F4259EDF187F05EA005B59F9 /* mapGrass.tmx */,
+			);
+			name = maps;
+			path = Resources/maps;
+			sourceTree = "<group>";
+		};
 		F479283C187EE7D300E86273 = {
 			isa = PBXGroup;
 			children = (
@@ -944,6 +968,7 @@
 		F4792859187EE7D300E86273 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				F4259EDD187F05EA005B59F9 /* maps */,
 				F479285A187EE7D300E86273 /* CloseNormal.png */,
 				F479285C187EE7D300E86273 /* CloseSelected.png */,
 				F479285E187EE7D300E86273 /* Default.png */,
@@ -2093,12 +2118,51 @@
 		F4792BE9187EE7D700E86273 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				F4792BF8187EF37300E86273 /* Utils */,
+				F4792BF7187EF36200E86273 /* Entity */,
+				F4792BF6187EF35800E86273 /* Role */,
+				F4792BF5187EE9D200E86273 /* UI */,
 				F4792BEA187EE7D700E86273 /* AppDelegate.h */,
 				F4792BEB187EE7D700E86273 /* AppDelegate.cpp */,
 				F4792BED187EE7D700E86273 /* HelloWorldScene.h */,
 				F4792BEE187EE7D700E86273 /* HelloWorldScene.cpp */,
 			);
 			name = Classes;
+			sourceTree = "<group>";
+		};
+		F4792BF5187EE9D200E86273 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				F4792BF9187EF43D00E86273 /* UIGameFatherLayer.cpp */,
+				F4792BFA187EF43D00E86273 /* UIGameFatherLayer.h */,
+			);
+			name = UI;
+			sourceTree = "<group>";
+		};
+		F4792BF6187EF35800E86273 /* Role */ = {
+			isa = PBXGroup;
+			children = (
+				F4676BF31882C03500849F03 /* Role.cpp */,
+				F4676BF41882C03500849F03 /* Role.h */,
+			);
+			name = Role;
+			sourceTree = "<group>";
+		};
+		F4792BF7187EF36200E86273 /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Entity;
+			sourceTree = "<group>";
+		};
+		F4792BF8187EF37300E86273 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				F4792BFD187EF57700E86273 /* UtCommonHeaders.h */,
+				F4676BF71882CA0E00849F03 /* UtDlog.cpp */,
+				F4676BF81882CA0E00849F03 /* UtDlog.h */,
+			);
+			name = Utils;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -2153,7 +2217,9 @@
 			files = (
 				F479286B187EE7D300E86273 /* Icon.png in Resources */,
 				F479290E187EE7D400E86273 /* ChangeLog in Resources */,
+				F4259EE0187F05EA005B59F9 /* ground.png in Resources */,
 				F479285B187EE7D300E86273 /* CloseNormal.png in Resources */,
+				F4259EE1187F05EA005B59F9 /* mapGrass.tmx in Resources */,
 				F4792867187EE7D300E86273 /* Icon-Small.png in Resources */,
 				F4792863187EE7D300E86273 /* Icon-72.png in Resources */,
 				F4792861187EE7D300E86273 /* HelloWorld.png in Resources */,
@@ -2360,6 +2426,7 @@
 				F4792A8A187EE7D600E86273 /* CCBAnimationManager.cpp in Sources */,
 				F4792975187EE7D400E86273 /* CCFileUtils.cpp in Sources */,
 				F4792A4B187EE7D500E86273 /* CCTexturePVR.cpp in Sources */,
+				F4676BF51882C03500849F03 /* Role.cpp in Sources */,
 				F4792989187EE7D400E86273 /* CCApplication.mm in Sources */,
 				F4792AF1187EE7D600E86273 /* CCControlHuePicker.cpp in Sources */,
 				F4792972187EE7D400E86273 /* CCEGLViewProtocol.cpp in Sources */,
@@ -2395,6 +2462,7 @@
 				F4792A72187EE7D600E86273 /* CDAudioManager.m in Sources */,
 				F4792B15187EE7D600E86273 /* CCEditBoxImplMac.mm in Sources */,
 				F4792948187EE7D400E86273 /* CCTransitionProgress.cpp in Sources */,
+				F4792BFB187EF43D00E86273 /* UIGameFatherLayer.cpp in Sources */,
 				F479299D187EE7D400E86273 /* CCImage.mm in Sources */,
 				F4792BB6187EE7D700E86273 /* cpRatchetJoint.c in Sources */,
 				F4792BB4187EE7D700E86273 /* cpPivotJoint.c in Sources */,
@@ -2406,6 +2474,7 @@
 				F47929FB187EE7D500E86273 /* base64.cpp in Sources */,
 				F47928B2187EE7D300E86273 /* CCDirector.cpp in Sources */,
 				F4792884187EE7D300E86273 /* CCActionCatmullRom.cpp in Sources */,
+				F4676BF91882CA0E00849F03 /* UtDlog.cpp in Sources */,
 				F4792B20187EE7D600E86273 /* CCScrollView.cpp in Sources */,
 				F4792A01187EE7D500E86273 /* CCPointExtension.cpp in Sources */,
 				F4792ACD187EE7D600E86273 /* CCScale9SpriteLoader.cpp in Sources */,
@@ -2501,6 +2570,7 @@
 				GCC_PREFIX_HEADER = Parkour/Prefix.pch;
 				"GCC_THUMB_SUPPORT[arch=armv6]" = "";
 				INFOPLIST_FILE = Parkour/Resources/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					/Users/sanren/Documents/Parkour/Parkour/libs/cocos2dx/platform/third_party/ios/libraries,
@@ -2527,6 +2597,7 @@
 				GCC_PREFIX_HEADER = Parkour/Prefix.pch;
 				"GCC_THUMB_SUPPORT[arch=armv6]" = "";
 				INFOPLIST_FILE = Parkour/Resources/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					/Users/sanren/Documents/Parkour/Parkour/libs/cocos2dx/platform/third_party/ios/libraries,
@@ -2564,6 +2635,7 @@
 				F4792BF4187EE7D700E86273 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
