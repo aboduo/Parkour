@@ -21,5 +21,35 @@
   <object name="gold" x="1101" y="7713"/>
   <object name="gold" x="890" y="7916"/>
   <object name="gold" x="941" y="7752"/>
+  <object name="gold" x="995" y="7883"/>
+  <object name="gold" x="1188" y="7894"/>
+  <object name="gold" x="1288" y="7836"/>
+  <object name="gold" x="1370" y="7842"/>
+  <object name="gold" x="1448" y="7873"/>
+  <object name="gold" x="1582" y="7858"/>
+  <object name="gold" x="1745" y="7785"/>
+  <object name="gold" x="1891" y="7788"/>
+  <object name="gold" x="1985" y="7836"/>
+  <object name="gold" x="2079" y="7867"/>
+  <object name="gold" x="2367" y="7873"/>
+  <object name="gold" x="2491" y="7800"/>
+  <object name="gold" x="2524" y="7764"/>
+  <object name="gold" x="2667" y="7809"/>
+  <object name="gold" x="2691" y="7879"/>
+  <object name="gold" x="2561" y="7927"/>
+  <object name="gold" x="2406" y="7897"/>
+  <object name="gold" x="2276" y="7942"/>
+  <object name="gold" x="2145" y="7933"/>
+  <object name="gold" x="1939" y="7921"/>
+  <object name="gold" x="1770" y="7933"/>
+  <object name="gold" x="1552" y="7918"/>
+  <object name="gold" x="1218" y="7927"/>
+  <object name="gold" x="955" y="7870"/>
+  <object name="gold" x="779" y="7824"/>
+  <object name="gold" x="636" y="7897"/>
+  <object name="gold" x="464" y="7891"/>
+  <object name="gold" x="394" y="7855"/>
+  <object name="gold" x="2885" y="7906"/>
+  <object name="gold" x="2927" y="7848"/>
  </objectgroup>
 </map>
