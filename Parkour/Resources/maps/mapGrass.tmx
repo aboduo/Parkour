@@ -14,4 +14,12 @@
  <objectgroup name="coll" width="500" height="250">
   <object name="rectcoll" x="1" y="7969" width="2942" height="98"/>
  </objectgroup>
+ <objectgroup name="items" width="500" height="250">
+  <object name="gold" x="460" y="7757"/>
+  <object name="gold" x="627" y="7744"/>
+  <object name="gold" x="792" y="7787"/>
+  <object name="gold" x="1101" y="7713"/>
+  <object name="gold" x="890" y="7916"/>
+  <object name="gold" x="941" y="7752"/>
+ </objectgroup>
 </map>

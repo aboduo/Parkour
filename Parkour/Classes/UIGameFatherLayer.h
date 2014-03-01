@@ -27,13 +27,24 @@ public:
     void initMap();
     void initRole();
     
+    
+    void initComponets();
+    
     CREATE_FUNC(UIGameFatherLayer);
     
     static CCScene* scene();
     
+    virtual bool ccTouchBegan(CCTouch* pTouch,CCEvent* pEvent);
+    virtual void onEnter();
+    virtual void onExit();
+    
+    void dispatchTouchRoleMove();
+    
 private:
     CCTMXTiledMap* m_GameMap;
     Role* m_Role;
+    
+    CCSpriteBatchNode* _pGoldBatchNode;
 };
 
 #endif /* defined(__Parkour__UIGameFatherLayer__) */

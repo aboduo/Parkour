@@ -19,6 +19,14 @@ enum ROLE_STATE {
     ROLE_STAND_BY
     };
 
+enum COLL_STATE {
+    COLL_INVALID_STATE = 0,
+    COLL_TOP,
+    COLL_BUTTOM,
+    COLL_LEFT,
+    COLL_RIGHT
+    };
+
 class Role:public CCNode {
     
     
@@ -43,6 +51,8 @@ public:
     CC_SYNTHESIZE(float, constXSpeed,ConstXSPeed);
     CC_SYNTHESIZE(float, constYSpeed,ConstYSpeed);
     
+    CC_SYNTHESIZE(std::vector<Gold_Struct>, goldVector, GoldVector);
+    
     void role_Update(float dt);
     void role_Logic();
 private:
@@ -50,16 +60,35 @@ private:
     CCSprite* mSprite;
     void extraInit();
     
+    CCParticleBatchNode* m_particleBatchNode;
+    
 private:
     
     void runLogic();
     void jumpUpLogic();
     void jumpDownLogic();
     
+    virtual void onEnter();
+    void collWithGold(float dt);
+    
+private:
+    
+    bool isCollWithCollArea(COLL_STATE _collState);
+    
+    bool isCollWithLeft(CCRect box);
+    bool isCollWithRight(CCRect box);
+    bool isCollWithTop(CCRect box);
+    bool isCollWithBottom(CCRect box);
+    
+    void fixColl(COLL_STATE _collState,CCRect box);
+    
 private:
     
     void camera_Update(float dt);
     void setMapPointByRole();//根据任务位置点设置镜头
+    
+private:
+    float acceslate;
     
 };
 

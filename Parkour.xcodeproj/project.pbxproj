@@ -285,6 +285,7 @@
 		F4792BEC187EE7D700E86273 /* AppDelegate.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F4792BEB187EE7D700E86273 /* AppDelegate.cpp */; };
 		F4792BEF187EE7D700E86273 /* HelloWorldScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F4792BEE187EE7D700E86273 /* HelloWorldScene.cpp */; };
 		F4792BFB187EF43D00E86273 /* UIGameFatherLayer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F4792BF9187EF43D00E86273 /* UIGameFatherLayer.cpp */; };
+		F4EBF8A218C24F7600204E07 /* images in Resources */ = {isa = PBXBuildFile; fileRef = F4EBF8A118C24F7600204E07 /* images */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -887,6 +888,7 @@
 		F4792BF9187EF43D00E86273 /* UIGameFatherLayer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = UIGameFatherLayer.cpp; path = Classes/UIGameFatherLayer.cpp; sourceTree = "<group>"; };
 		F4792BFA187EF43D00E86273 /* UIGameFatherLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UIGameFatherLayer.h; path = Classes/UIGameFatherLayer.h; sourceTree = "<group>"; };
 		F4792BFD187EF57700E86273 /* UtCommonHeaders.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UtCommonHeaders.h; path = Classes/UtCommonHeaders.h; sourceTree = "<group>"; };
+		F4EBF8A118C24F7600204E07 /* images */ = {isa = PBXFileReference; lastKnownFileType = folder; name = images; path = Resources/images; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -968,6 +970,7 @@
 		F4792859187EE7D300E86273 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				F4EBF8A118C24F7600204E07 /* images */,
 				F4259EDD187F05EA005B59F9 /* maps */,
 				F479285A187EE7D300E86273 /* CloseNormal.png */,
 				F479285C187EE7D300E86273 /* CloseSelected.png */,
@@ -2215,6 +2218,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F4EBF8A218C24F7600204E07 /* images in Resources */,
 				F479286B187EE7D300E86273 /* Icon.png in Resources */,
 				F479290E187EE7D400E86273 /* ChangeLog in Resources */,
 				F4259EE0187F05EA005B59F9 /* ground.png in Resources */,
